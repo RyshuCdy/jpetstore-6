@@ -333,6 +333,7 @@
         <tomee.version>8.0.13</tomee.version>
         <cargo.maven.containerId>tomee${tomee.major-version}x</cargo.maven.containerId>
         <cargo.maven.containerUrl>https://repo1.maven.org/maven2/org/apache/tomee/apache-tomee/${tomee.version}/apache-tomee-${tomee.version}-plume.zip</cargo.maven.containerUrl>
+        <cargo.servlet.port>9090</cargo.servlet.port>
       </properties>
     </profile>
     <profile>
@@ -342,6 +343,7 @@
         <tomee.version>7.1.4</tomee.version>
         <cargo.maven.containerId>tomee${tomee.major-version}x</cargo.maven.containerId>
         <cargo.maven.containerUrl>https://repo1.maven.org/maven2/org/apache/tomee/apache-tomee/${tomee.version}/apache-tomee-${tomee.version}-plume.zip</cargo.maven.containerUrl>
+        <cargo.servlet.port>9090</cargo.servlet.port>
       </properties>
     </profile>
     <profile>
